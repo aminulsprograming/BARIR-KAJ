@@ -1,0 +1,30 @@
+
+h1::after{
+    position: absolute;
+    content: "";
+    background:blue;
+    height: 23px;
+    width: 5px;
+    top:30px;
+    left: 840px;
+
+}
+h1::before{
+    position: absolute;
+    content: "";
+    background:blue;
+    height: 23px;
+    width: 5px;
+    top: 30px;
+    left: 595px;
+    
+    
+}
+    
+h1{
+   padding: 0 600px;
+   
+}
+p{
+   padding: 0 60px;
+}

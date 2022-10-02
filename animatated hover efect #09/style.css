@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aliceblue;
+    display: flex;
+    justify-content:center ;
+}
+.icons{
+    margin-top: 80px;
+}
+.icons a{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    text-decoration: none;
+    transition: all .4s ease-in-out;
+    background-size:100% 200% ;
+    background-position: 100% 5%;
+    margin: 20px;
+    border-radius: 10px;
+}
+.icons a:nth-child(1){
+    background-image: linear-gradient( #7d9bdb 50%, #3b5998 50%);
+    color: #3b5998;
+}
+.icons a:nth-child(1):hover{
+    background-image: linear-gradient(white 50%, #3b5998 50%);
+    color: white;
+    background-position: 100% 100%;
+}
+.icons a:nth-child(2){
+    background-image: linear-gradient(white 50%, red 50%);
+    color: red;
+}
+.icons a:nth-child(2):hover{
+    background-image: linear-gradient(white 50%, red 50%);
+    color: red;
+    background-position: 100% 100%;
+}
+.icons a:nth-child(3){
+    background-image: linear-gradient(white 50%, #00acee 50%);
+    color: #00acee;
+}
+.icons a:nth-child(3):hover{
+    background-image: linear-gradient(white 50%, #00acee 50%);
+    color: white;
+    background-position: 100% 100%;
+}
+.icons a:nth-child(4){
+    background-image: linear-gradient(white 50%,#833AB4 50%);
+    color:#833AB4;
+}
+.icons a:nth-child(4):hover{
+    background-image: linear-gradient(white 50%, #833AB4; 50%);
+    color: white;
+    background-position: 100% 100%;
+}

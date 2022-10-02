@@ -1,0 +1,94 @@
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.background{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-image:linear-gradient(blue,purple);
+}
+ul li{
+height: 30px;
+width: 30px;
+border-left:  1px solid white;
+border-right: 2px solid white;
+list-style: none;
+
+}
+.squre li{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+    animation:squre 10s linear infinite ;
+
+}
+@keyframes squre{
+    0%{ opacity: 1;
+        transform: scale(0) rotateY(30deg);
+    }
+    100%{ opacity: 0;
+        transform: scale(4) rotateY(1000deg);
+    }
+}
+.squre li:nth-child(2){
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    animation-delay: 2s;
+}
+.squre li:nth-child(3){
+    position: absolute;
+    top: 15%;
+    left: 90%;
+    animation-delay: 4s;
+}
+.squre li:nth-child(4){
+    position: absolute;
+    top: 90%;
+    left: 15%;
+    animation-delay: 6s;
+}
+.squre li:nth-child(5){
+    position: absolute;
+    top: 90%;
+    left: 90%;
+    animation-delay: 8s;
+}
+.circle li{
+    position: absolute;
+    bottom: 0;
+    animation:circle 10s linear infinite ;
+}
+@keyframes circle{
+    0%{
+        opacity: 1;
+        transform:scale(0)rotateY(0deg) ;
+        border-radius: 0%;
+        bottom: 0vh;
+    }
+    100%{
+        opacity: 0;
+        transform:scale(4)rotateY(1000deg) ;
+        border-radius: 50%;
+        bottom: 90%;
+    }
+}
+.circle li:nth-child(1){
+    left: 35%;
+    animation-delay: 2s;
+}
+.circle li:nth-child(2){
+    left: 70%;
+    animation-delay: 4s;
+}
+.circle li:nth-child(3){
+    left: 95%;
+    animation-delay: 6s;
+}
+}

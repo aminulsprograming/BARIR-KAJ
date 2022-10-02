@@ -1,0 +1,44 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.socialmedia{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    background-color:#f5f6fa;;
+    width:100px;
+    height: 100px;
+    border-radius: 14%;
+    text-align: center;
+    line-height: 100px;
+    box-shadow: 1px 3px 2px 2px inset;
+    margin: 10px;
+
+}
+a i{
+    transition: all.3s linear;
+}
+a:hover i{
+    transform: scale(1.4);
+}
+.fa-facebook{
+    color:#3b5998;
+
+}
+.fa-instagram{
+    color:purple;
+}
+.fa-twitter{
+    color:#00acee ;
+}
+.fa-linkedin{
+    color: #0e76a8;
+}
+.fa-youtube{
+    color:#c4202b ;
+}

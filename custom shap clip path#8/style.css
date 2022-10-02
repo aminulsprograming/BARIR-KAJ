@@ -1,0 +1,24 @@
+.shapes{
+    height: 100%;
+    width: 100%;
+    /* background: url(f-1.jpg); */
+    background-color: red;
+    position: absolute;
+    /* clip-path: polygon(50% 0%,75% 10%,90% 20%,100% 100%,0% 100%); */
+    /* clip-path: polygon(25% 0%, 50% 0%,100% 50%,50% 100%,25% 100%,0% 100%,50% 50%); */
+    
+clip-path:circle(15% at 70% 50%);
+z-index: -2;
+
+}
+.circle{
+        height: 100%;
+        width: 100%;
+        background-color: greenyellow;
+        position: absolute;
+        /* clip-path: polygon(50% 0%,75% 10%,90% 20%,100% 100%,0% 100%); */
+        /* clip-path: polygon(25% 0%, 50% 0%,100% 50%,50% 100%,25% 100%,0% 100%,50% 50%); */
+        
+    clip-path:ellipse(10% 20% at 50% 50%);
+    z-index: -1;
+}

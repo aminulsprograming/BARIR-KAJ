@@ -1,0 +1,23 @@
+.box{
+    height: 150px;
+    width: 150px;
+    /* background-color: lightcoral; */
+    position: relative;
+    animation-name: myaminimation;
+    animation-duration: 5s;
+    /* animation-iteration-count:infinite; */
+    animation-iteration-count: 2;
+    /* animation-delay: 2s; */
+    /* animation-duration:alternate; */
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes myaminimation{
+    0%{background-color: lime; left: 0px;top: 0px;border-radius:0%;}
+   25%{background-color:red; left:300px; top: 0px; border-radius: 0% 50% 0% 0%;  }
+   50%{background-color:yellow; left:300px; top: 300px; border-radius: 0% 50% 50% 0%; } 
+   75%{background-color:blue; left:0px; top: 300px; border-radius: 0% 50% 50% 50%; }
+   100%{background-color:orangered; left:0px; top: 0px; border-radius: 50%; }
+
+    }
